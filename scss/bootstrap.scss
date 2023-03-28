@@ -1,0 +1,28 @@
+/* Custom SCSS Variables */
+$primary: #00B87B;
+$secondary: #314355;
+$light: #EEEEEE;
+$dark: #2C3E50;
+
+$font-family-base: 'Heebo', sans-serif;
+$body-bg: $dark;
+$body-color: $light;
+$headings-font-weight: 600;
+$display-font-weight: 700;
+$enable-responsive-font-sizes: true;
+$enable-rounded: false;
+$border-color: rgba(256, 256, 256, .1);
+$border-radius: 0px;
+$link-decoration: none;
+$enable-negative-margins: true;
+
+/* Custom variables for transitions and animations */
+$transition-duration: 0.5s;
+$transition-timing: ease-out;
+$transition-delay: 0s;
+
+/* Import Bootstrap */
+@import "bootstrap/scss/bootstrap";
+
+/* Custom SCSS styles */
+@import "custom-styles";
